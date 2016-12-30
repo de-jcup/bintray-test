@@ -18,4 +18,4 @@ if [ -z "$BINTRAY_API_KEY" ]; then
 fi
 # use bintray upload script from vogella:
 # https://github.com/vogellacompany/bintray-publish-p2-updatesite (de-jcup fork)
-./../bintray-publish-p2-updatesite/pushToBintray.sh ${BINTRAY_USER} ${BINTRAY_API_KEY} de-jcup bintray-test update-site current ./test-generic/
+./../bintray-publish-p2-updatesite/pushToBintray.sh ${BINTRAY_USER} ${BINTRAY_API_KEY} de-jcup test-generic update-site current ./test-updatesite/
